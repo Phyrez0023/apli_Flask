@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Servicios</title>
+</head>
+<body>
+    <header>
+        <h1>Servicios</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/quienes-somos">Quiénes Somos</a></li>
+                <li><a href="/servicios">Servicios</a></li>
+                <li><a href="/noticias">Noticias</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Servicios Ofrecidos</h2>
+        
+        <div>
+            <img src="{{ url_for('static', filename='images/servicio1.png') }}" alt="Servicio 1">
+            <h3>Servicio 1: [NanoTecnologia]</h3>
+            <p>Descripción: Te orienta a tener un amplio conocimiento acerca de esta tecnologia que esta revolucionando hoy en dia...</p>
+            <a href="#">Leer más</a>
+        </div>
+        
+        <div>
+            <img src="{{ url_for('static', filename='images/servicio2.png') }}" alt="Servicio 2">
+            <h3>Servicio 2: [TecMoTor]</h3>
+            <p>Descripción: Desarrolla una capacidad optima y ten por seguro que te gustara el servicio</p>
+            <a href="#">Leer más</a>
+        </div>
+
+        <div>
+            <img src="{{ url_for('static', filename='images/servicio3.png') }}" alt="Servicio 3">
+            <h3>Servicio 3: [Foltare]</h3>
+            <p>Descripción: Optimiza tus esfuerzos y simplifica la capacidad de tu trabajo..</p>
+            <a href="#">Leer más</a>
+        </div>
+    </main>
+</body>
+</html>

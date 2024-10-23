@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Noticias</title>
+</head>
+<body>
+    <header>
+        <h1>Noticias</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/quienes-somos">Quiénes Somos</a></li>
+                <li><a href="/servicios">Servicios</a></li>
+                <li><a href="/noticias">Noticias</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Títulos de Noticias</h2>
+        
+        <div>
+            <img src="{{ url_for('static', filename='images/noticia1.png') }}" alt="Noticia 1">
+            <h3>La Tecnologia crece Mas y Mas</h3>
+            <p>Descripción: [Breve resumen de la noticia o evento reciente, por ejemplo, "Lanzamiento de un nuevo producto"]</p>
+        </div>
+        
+        <div>
+            <img src="{{ url_for('static', filename='images/noticia2.png') }}" alt="Noticia 2">
+            <h3>Título de la Noticia 2</h3>
+            <p>Descripción: [Resumir otra noticia relevante, como un cambio en la dirección de la empresa o un premio recibido]</p>
+        </div>
+        
+        <div>
+            <img src="{{ url_for('static', filename='images/noticia3.png') }}" alt="Noticia 3">
+            <h3>Título de la Noticia 3</h3>
+            <p>Descripción: [Hablar sobre un evento reciente en el que la empresa haya participado]</p>
+        </div>
+    </main>
+</body>
+</html>

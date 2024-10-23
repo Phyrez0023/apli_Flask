@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>TECCHER</h1>
+        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo de la Empresa">
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/quienes-somos">Quiénes Somos</a></li>
+                <li><a href="/servicios">Servicios</a></li>
+                <li><a href="/noticias">Noticias</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>Descripción breve del producto o servicio que ofrece la empresa.</p>
+        <section>
+            <h2>Testimonios</h2>
+            <p>Testimonio de un cliente satisfecho.</p>
+        </section>
+        <section>
+            <h2>Redes Sociales</h2>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </section>
+    </main>
+</body>
+</html>
